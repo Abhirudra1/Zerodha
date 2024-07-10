@@ -1,7 +1,11 @@
+import Hero from "./Hero"
+import Team from "./Team";
+
 function AboutPage() {
     return ( 
         <div>
-            <h1>About page</h1>
+            <Hero />
+            <Team />
         </div>
      );
 }

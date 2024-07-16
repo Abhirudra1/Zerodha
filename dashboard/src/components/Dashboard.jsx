@@ -10,15 +10,16 @@ import Positions from "./Positions";
 import Funds from "./Funds";
 import Apps from "./Apps";
 import { GeneralContextProvider } from "./GeneralContext";
+import WatchList from "./WatchList";
 
-// import WatchList from "./WatchList";
+
 
 
 const Dashboard = () => {
   return (
     <div className="dashboard-container">
       <GeneralContextProvider>
-        {/* <WatchList /> */}
+        <WatchList />
       </GeneralContextProvider>
       <div className="content">
         <Routes>

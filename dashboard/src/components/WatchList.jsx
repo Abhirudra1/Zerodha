@@ -89,7 +89,10 @@ const WatchList = () => {
 
       <ul className="list">
         {watchlist.map((stock, index) => {
+          // return (<p key={index}>{stock.name}</p>);
+          
           return <WatchListItem stock={stock} key={index} />;
+          
         })}
       </ul>
 
@@ -100,7 +103,7 @@ const WatchList = () => {
 
 export default WatchList;
 
-const WatchListItem = ({ stock }) => {
+const WatchListItem = ({ stock , index }) => {
   const [showWatchlistActions, setShowWatchlistActions] = useState(false);
 
   const handleMouseEnter = () => {
@@ -110,7 +113,7 @@ const WatchListItem = ({ stock }) => {
   const handleMouseLeave = () => {
     setShowWatchlistActions(false);
   };
-
+console.log(index)
   return (
     <li onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <div className="item">

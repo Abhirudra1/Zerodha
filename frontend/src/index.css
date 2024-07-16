@@ -1,0 +1,39 @@
+.nav-link{
+    margin-left: 40px;
+}
+div a{
+    text-decoration: none;
+    color: rgb(129, 127, 127);
+}
+
+#supportHero{
+    background-color: #387ED1;
+    padding: 0px 100px 0px 100px;
+    color: white;
+}
+
+#supportWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+#supportWrapper a{
+    color: white;
+    text-decoration: underline;
+    font-size: 1.3rem;
+    margin: 0 150px;
+}
+
+#supportHero a{
+    color: white;
+    margin-right: 1.2rem;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+#supportInput{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}

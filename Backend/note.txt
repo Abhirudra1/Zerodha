@@ -1,0 +1,5 @@
+Packages Install ->
+- npm init (to initialize package.json)
+- npm i express
+- npm i -D nodemon
+- npm i body-parser cors dotenv mongoose passport passport-local-mongoose

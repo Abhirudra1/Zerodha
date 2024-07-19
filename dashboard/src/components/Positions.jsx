@@ -1,8 +1,11 @@
 
 
+// import { useEffect, useState } from "react";
 import { positions } from "../data/data";
+// import axios from "axios";
 
 const Positions = () => {
+ 
   return (
     <>
       <h3 className="title">Positions ({positions.length})</h3>
